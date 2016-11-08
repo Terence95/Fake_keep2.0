@@ -86,7 +86,7 @@
  */
 -(UITableView*)trainTableView{
     if (!_trainTableView) {
-        _trainTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_W, SCREEN_H) style:UITableViewStyleGrouped];
+        _trainTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_W, SCREEN_H-100) style:UITableViewStyleGrouped];
 //        _trainTableView.backgroundColor = [UIColor yellowColor];
         _trainTableView.showsHorizontalScrollIndicator = NO;
 //        _trainTableView.dataSource = self;
